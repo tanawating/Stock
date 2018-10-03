@@ -45,7 +45,7 @@ class MainStockController extends Controller
                              )
                     ->orderBy('main_stock.id','=','desc');
 
-                    // Log::info($stock);
+                    Log::info($stock);
 
         return $stock;
     }
